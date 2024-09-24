@@ -1,0 +1,44 @@
+# Игнорирование каталогов CLion
+.idea/
+cmake-build-*/
+
+# Игнорирование файлов конфигурации CLion
+*.iml
+*.iws
+
+# Игнорирование CMake файлов
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Игнорирование временных файлов редакторов
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+
+# Игнорирование бинарных и объектных файлов
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+
+# Игнорирование файлов сборки
+build/
+bin/
+lib/
+
+# Игнорирование файлов зависимостей
+.deps/
+*.d
+*.dSYM/
+.vscode/
